@@ -1,5 +1,5 @@
 const { test, expect } = require('@playwright/test');
-const { customLogin } = require('../support/commands');
+const { customLogin } = require('../support/pages');
 
 // teste sem comando personalizado
 // test('Deve realizar login com sucesso', async ({ page }) => {
